@@ -107,7 +107,7 @@ span {
   justify-content: center;
   width: 50%;
   padding: 20px 30px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -128,7 +128,7 @@ span {
   justify-content: center;
   width: 50%;
   padding: 20px 30px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -180,6 +180,11 @@ span {
   margin: 1rem;
 }
 
+#love {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media only screen and (max-width: 1500px) {
   h1 {
     font-size: 25px;
@@ -191,6 +196,9 @@ span {
   img {
     height: 500px;
     width: 500px;
+  }
+  #love {
+    font-size: 20px;
   }
 }
 
@@ -206,6 +214,9 @@ span {
     height: 300px;
     width: 300px;
   }
+  #love {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -219,6 +230,9 @@ span {
   img {
     height: 200px;
     width: 200px;
+  }
+  #love {
+    font-size: 20px;
   }
 }
 
@@ -239,6 +253,9 @@ span {
     height: 150px;
     width: 150px;
   }
+  #love {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -255,5 +272,8 @@ span {
   img {
     height: 100px;
     width: 100px;
+  }
+  #love {
+    font-size: 20px;
   }
 }
