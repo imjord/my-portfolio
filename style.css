@@ -40,7 +40,7 @@ h1 {
 
 h1:hover {
   color: darkgray;
-  cursor: pointer;
+  
   letter-spacing: 1px;
 }
 
@@ -49,12 +49,12 @@ nav {
   justify-content: space-around;
 }
 
-ul {
+#ul {
   display: flex;
   font-weight: 600;
 }
 
-li {
+#li {
   text-decoration: none;
   display: flex;
   font-size: 1.5rem;
@@ -63,18 +63,18 @@ li {
   text-decoration: none;
 }
 
-li a {
+#li a {
   text-decoration: none;
   color: black;
 }
 
-li:hover {
+#li:hover {
   cursor: pointer;
   letter-spacing: 1px;
   color: darkgray;
 }
 
-li a:hover {
+#li a:hover {
   cursor: pointer;
   letter-spacing: 1px;
   color: darkgray;
@@ -195,6 +195,11 @@ span {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+
 
 #skills-id{
   display: flex;
