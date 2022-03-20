@@ -11,6 +11,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 img {
   height: 500px;
   width: 700px;
@@ -40,7 +42,7 @@ h1 {
 
 h1:hover {
   color: darkgray;
-  cursor: pointer;
+  
   letter-spacing: 1px;
 }
 
@@ -49,12 +51,12 @@ nav {
   justify-content: space-around;
 }
 
-ul {
+#ul {
   display: flex;
   font-weight: 600;
 }
 
-li {
+#li {
   text-decoration: none;
   display: flex;
   font-size: 1.5rem;
@@ -63,18 +65,18 @@ li {
   text-decoration: none;
 }
 
-li a {
+#li a {
   text-decoration: none;
   color: black;
 }
 
-li:hover {
+#li:hover {
   cursor: pointer;
   letter-spacing: 1px;
   color: darkgray;
 }
 
-li a:hover {
+#li a:hover {
   cursor: pointer;
   letter-spacing: 1px;
   color: darkgray;
@@ -86,6 +88,11 @@ li a:hover {
 
 span {
   font-size: 2.5rem;
+}
+
+#resume-text {
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
 .about {
@@ -112,8 +119,124 @@ span {
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+#resume {
+  display: flex;
+  padding: 40px;
+  margin-top: 40px;
+  justify-content: center;
+
+}
+
+
+#resume-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fa-file-zipper {
+  font-size: 2.5rem;
+}
+
+
 .fa-folder {
   font-size: 2.5rem;
+}
+
+
+.fa-graduation-cap {
+  font-size: 2.5rem;
+}
+
+#cert {
+  display: flex;
+  padding: 40px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+
+#cert-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#tools{
+  display: flex;
+  padding: 40px;
+  margin-top: 40px;
+  justify-content: center;
+
+}
+
+.column-1{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.column-2{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px 30px;
+  margin-left: 0.5rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#email {
+  font-size: 2rem;
+}
+
+#resume-btn {
+  
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.582);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#resume-btn:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.123);
+}
+
+
+#skills-id{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#left-right-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+  justify-content: flex-start;
 }
 
 #projects {
@@ -165,7 +288,12 @@ span {
   background-color: rgba(255, 255, 255, 0.582);
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
-
+#repo:hover {
+ 
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.123);
+  
+}
 #repo a {
   text-decoration: none;
 }
@@ -184,6 +312,12 @@ span {
   display: flex;
   justify-content: flex-end;
 }
+
+
+.icon {
+  display: none;
+}
+
 
 @media only screen and (max-width: 1500px) {
   h1 {
@@ -217,6 +351,120 @@ span {
   #love {
     font-size: 20px;
   }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  nav {
+    margin: auto 10px;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  #love {
+    font-size: 20px;
+  }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -233,6 +481,72 @@ span {
   }
   #love {
     font-size: 20px;
+  }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
   }
 }
 
@@ -256,6 +570,71 @@ span {
   #love {
     font-size: 20px;
   }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -268,7 +647,9 @@ span {
     width: 100%;
     padding: 0;
   }
+ 
 
+  
   img {
     height: 100px;
     width: 100px;
@@ -276,4 +657,72 @@ span {
   #love {
     font-size: 20px;
   }
+
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
+  }
+
 }
