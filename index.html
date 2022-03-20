@@ -17,8 +17,8 @@
   </head>
   <body>
     <header>
-      <nav>
-        <h1>Imjord</h1>
+      <nav class="my-navbar">
+        <h1 class="imjord">Imjord</h1>
         <ul id="ul">
           <li id="li"><a href="#about">About</a></li>
           <li id="li"><a href="#resume">Resume</a></li>
@@ -28,37 +28,47 @@
    
         </ul>
       </nav>
+    </div>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
     </header>
     <main>
+      <!-- ABOUT SECTION  -->
       <article id="about">
         <div id="about-container">
           <div class="about">
             <i class="fa-solid fa-user"><span> About</span></i>
 
-            <p>Hello my name is Jordan! Im a full stack web developer.</p>
+            <p id="text">Hello my name is Jordan! Im a full stack web developer.</p>
           </div>
         </div>
       </article>
+      <!-- RESUME SECTION  -->
       <article id="resume">
         <div id="resume-container">
           <div class="resume">
-            <i class="fa-solid fa-file-zipper"><span id="resume-span">Resume</span></i>
-
+            
+            <i class="fa-solid fa-file-zipper"></i>
+            <p id="resume-text">Resume</p>
             <img src="./assets/resume.PNG" alt="my-resume"/>
-            <p>Email: Jordanharperjs@gmail.com</p>
-            <button>Resume</button>
+            <p id="email">Email: Jordanharperjs@gmail.com</p>
+            <a href="https://docs.google.com/document/d/1T6D4e4ECXR3YcMbVqCPjSnIj26LHT9_vbyT3WdDVanw/edit" target="_blank"><button id="resume-btn">Resume</button></a>
           </div>
         </div>
       </article>
+      <!-- EXPERIENCE SECTION -->
       <article id="cert">
         <div id="cert-container">
           <div class="experience">
             <i class="fa-solid fa-graduation-cap"><span>Experience</span></i>
 
-            <p>April 2020 - Septemember 2020 Coding Bootcamp University of Utah</p>
+            <p id="text">April 2020 - Septemember 2020 Coding Bootcamp University of Utah</p>
           </div>
         </div>
       </article>
+      <!-- SKILLS SECTION -->
       <article id="tools">
         <div class="column-1">
           <i class="fa-solid fa-graduation-cap"><span>Skills</span></i>
@@ -97,7 +107,7 @@
 
       </article>
      
-     
+     <!-- PROJECTS SECTION -->
       <article id="projects">
         <div id="projects-container">
           <div>
@@ -108,8 +118,8 @@
                 <img src="" id="project-img" alt="" />
               </div>
               <h4 id="project-name"></h4>
-              <p id="skills"></p>
-              <p id="info"></p>
+              <p id="skills" id="text"></p>
+              <p id="info" id="text"></p>
               <button id="repo"><a id="repo-link">Repo</a></button>
               <span id="count"></span>
               <div class="button-container">
@@ -124,6 +134,7 @@
           </div>
         </div>
       </article>
+      <!-- CONTACT FOOTER SECTION -->
       <article id="contact">
         <div id="contact-container"></div>
       </article>

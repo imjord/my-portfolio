@@ -185,6 +185,18 @@ countEl.textContent = currentItem + " /" + (projectsObj.length - 1);
 //   countEl.textContent = "23/23";
 // }
 
+
+// hamburger 
+function myFunction() {
+  var x = document.querySelector(".my-navbar");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
 // when document loads first item on array
 
 window.addEventListener("DOMContentLoaded", function () {

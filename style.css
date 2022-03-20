@@ -11,6 +11,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 img {
   height: 500px;
   width: 700px;
@@ -88,6 +90,11 @@ span {
   font-size: 2.5rem;
 }
 
+#resume-text {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -119,6 +126,7 @@ span {
   justify-content: center;
 
 }
+
 
 #resume-container {
   display: flex;
@@ -197,8 +205,22 @@ span {
 }
 
 
+#email {
+  font-size: 2rem;
+}
 
+#resume-btn {
+  
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.582);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
 
+#resume-btn:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.123);
+}
 
 
 #skills-id{
@@ -266,7 +288,12 @@ span {
   background-color: rgba(255, 255, 255, 0.582);
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
-
+#repo:hover {
+ 
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.123);
+  
+}
 #repo a {
   text-decoration: none;
 }
@@ -285,6 +312,12 @@ span {
   display: flex;
   justify-content: flex-end;
 }
+
+
+.icon {
+  display: none;
+}
+
 
 @media only screen and (max-width: 1500px) {
   h1 {
@@ -318,6 +351,120 @@ span {
   #love {
     font-size: 20px;
   }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  nav {
+    margin: auto 10px;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  #love {
+    font-size: 20px;
+  }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -334,6 +481,72 @@ span {
   }
   #love {
     font-size: 20px;
+  }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
   }
 }
 
@@ -357,6 +570,71 @@ span {
   #love {
     font-size: 20px;
   }
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -369,7 +647,9 @@ span {
     width: 100%;
     padding: 0;
   }
+ 
 
+  
   img {
     height: 100px;
     width: 100px;
@@ -377,4 +657,72 @@ span {
   #love {
     font-size: 20px;
   }
+
+  #resume {
+    display: flex;
+    
+
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+
+  #resume-container {
+    width: auto;
+  }
+  #cert {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  
+  }
+  #cert-container {
+    width: auto;
+  }
+  .column-1 {
+    width: auto;
+  }
+
+  .column-2 {
+    width: auto;
+  }
+  #projects-container{
+    width: auto;
+  }
+  
+  .my-navbar {
+    display: none;
+    
+    
+  }
+
+  #ul {
+    flex-wrap: wrap;
+  }
+
+  .imjord{
+    display: hidden;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #email {
+    font-size: 1rem;
+  }
+  
+  #resume-btn {
+  
+    font-size: 1rem;
+    
+  }
+
 }
