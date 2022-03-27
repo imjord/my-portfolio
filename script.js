@@ -1,5 +1,12 @@
 var projectsObj = [
   {
+    src: "./assets/game-api.PNG",
+    name: "Game Api Library",
+    skill: "Skills: Nodejs, Express, REST, EJS, CSS, HTML",
+    info: "A full stack website where you can see trending games and get games by different categories",
+    repo: "https://github.com/imjord/EJS-MVC-Games-Library",
+  },
+  {
     src: "./assets/nosql-social.png",
     name: "noSQL Backend Social Network",
     skill: "Skills: MongoDB, Node, Express",
