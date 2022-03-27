@@ -224,11 +224,11 @@ function showPerson(person) {
 nextBtn.addEventListener("click", function () {
   currentItem++;
   showPerson(currentItem);
-  countEl.textContent = currentItem + "/22";
+  countEl.textContent = currentItem + "/23";
 });
 
 prevBtn.addEventListener("click", function () {
   currentItem--;
   showPerson(currentItem);
-  countEl.textContent = currentItem + "/22";
+  countEl.textContent = currentItem + "/23";
 });
