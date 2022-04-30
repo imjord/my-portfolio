@@ -1,5 +1,12 @@
 var projectsObj = [
   {
+    src: "./assets/friends.PNG",
+    name: "Our Friends Social Media",
+    skill: "Skills: Node.js, EJS, MongoDB, Passport, Javascript",
+    info: "A social media website made using ejs",
+    repo: "https://github.com/imjord/EJS-SOCIAL-MEDIA-SITE",
+  },
+  {
     src: "./assets/game-api.PNG",
     name: "Game Api Library",
     skill: "Skills: Nodejs, Express, REST, EJS, CSS, HTML",
@@ -224,11 +231,11 @@ function showPerson(person) {
 nextBtn.addEventListener("click", function () {
   currentItem++;
   showPerson(currentItem);
-  countEl.textContent = currentItem + "/23";
+  countEl.textContent = currentItem + "/24";
 });
 
 prevBtn.addEventListener("click", function () {
   currentItem--;
   showPerson(currentItem);
-  countEl.textContent = currentItem + "/23";
+  countEl.textContent = currentItem + "/24";
 });
